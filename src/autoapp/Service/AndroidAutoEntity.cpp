@@ -241,6 +241,7 @@ void AndroidAutoEntity::onChannelError(const aasdk::error::Error& e)
 
 void AndroidAutoEntity::triggerQuit()
 {
+    OPENAUTO_LOG(error) << "[AndroidAutoEntity] trigger quit.";
     if(eventHandler_ != nullptr)
     {
         eventHandler_->onAndroidAutoQuit();

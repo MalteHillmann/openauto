@@ -1,8 +1,12 @@
 <RCC>
     <qresource prefix="/">
         <file>ico_androidauto.png</file>
+        <file>logo_androidauto.png</file>
         <file>ico_warning.png</file>
         <file>ico_setting.png</file>
         <file>ico_info.png</file>
+        <file>baseline_settings_black_48dp.png</file>
+        <file>baseline_power_settings_new_black_48dp.png</file>
+        <file>baseline_wifi_tethering_black_48dp.png</file>
     </qresource>
 </RCC>

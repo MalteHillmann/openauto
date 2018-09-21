@@ -20,6 +20,7 @@
 
 #include <memory>
 #include <QMainWindow>
+#include <QCloseEvent>
 
 namespace Ui
 {
@@ -45,11 +46,13 @@ public:
 signals:
     void exit();
     void openSettings();
-    void toggleCursor();
     void openConnectDialog();
 
 private:
     Ui::MainWindow* ui_;
+    void closeEvent(QCloseEvent *event) {
+      exit();
+    }
 };
 
 }
